@@ -1,0 +1,53 @@
+.cart_item {
+  border-bottom: 2px solid #800000;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details h2 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 8rem;
+}
+
+.quantity span {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #701717;
+  margin-right: 0.5rem;
+}
+
+.quantity input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font: inherit;
+  font-weight: bold;
+  width: 2.5rem;
+  text-align: center;
+}
+
+.actions button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #800000;
+  padding: 0 0.75rem;
+  border-radius: 5px;
+  color: #800000;
+  font: inherit;
+  font-weight: bold;
+  width: 2.5rem;
+}
+
+.decrease {
+  margin-right: 0.5rem;
+}
+
+.increase {
+}

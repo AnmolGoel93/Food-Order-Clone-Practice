@@ -1,0 +1,16 @@
+.meals_list {
+  background-color: white;
+  width: 90%;
+  max-width: 60rem;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 1.2rem;
+}
+
+.meals_list ul {
+  padding: 0.5rem;
+  margin: 0;
+  list-style-type: none;
+}
